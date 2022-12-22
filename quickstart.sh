@@ -6,7 +6,6 @@
 # 	lowering RAM utilization
 # 	lowering CPU usage
 # 	disable hardware not necessary for Pi when headless
-
 # Colored text
 RED='\033[0;31m'
 OFF='\033[0m'

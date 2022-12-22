@@ -17,7 +17,7 @@ git clone https://github.com/kelpdude89/raspi-setup.git
 ```
 navigate to raspi-setup
 ```
-cd /raspi-setup
+cd raspi-setup/
 ```
 give quickstart.sh executable privileges:
 ```
@@ -29,7 +29,7 @@ sudo ./quickstart.sh
 ```
 or do it all with one command
 ```
-sudo apt install git -y && git clone https://github.com/kelpdude89/raspi-setup.git && cd /raspi-setup && chmod +x quickstart.sh && sudo ./quickstart.sh
+sudo apt install git -y && git clone https://github.com/kelpdude89/raspi-setup.git && cd raspi-setup/ && chmod +x quickstart.sh && sudo ./quickstart.sh
 ```
 
 ## Usage

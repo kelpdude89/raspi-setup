@@ -13,7 +13,7 @@ sudo apt install git -y
 download the script
 
 ```bash
-git install https://github.com/kelpdude89/raspi-setup.git
+git clone https://github.com/kelpdude89/raspi-setup.git
 ```
 navigate to raspi-setup
 ```
@@ -29,7 +29,7 @@ sudo ./quickstart.sh
 ```
 or do it all with one command
 ```
-sudo apt install git -y && git install https://github.com/kelpdude89/raspi-setup.git && cd /raspi-setup && chmod +x quickstart.sh && sudo ./quickstart.sh
+sudo apt install git -y && git clone https://github.com/kelpdude89/raspi-setup.git && cd /raspi-setup && chmod +x quickstart.sh && sudo ./quickstart.sh
 ```
 
 ## Usage
